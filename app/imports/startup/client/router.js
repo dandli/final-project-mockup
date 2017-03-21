@@ -15,6 +15,20 @@ FlowRouter.route('/list', {
   },
 });
 
+FlowRouter.route('/login', {
+  name: 'Login_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Login_Page' });
+  },
+});
+
+FlowRouter.route('/new-user', {
+  name: 'New_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'New_Profile_Page' });
+  },
+});
+
 FlowRouter.route('/add', {
   name: 'Add_Stuff_Page',
   action() {
