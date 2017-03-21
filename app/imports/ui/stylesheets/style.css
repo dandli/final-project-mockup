@@ -1,6 +1,5 @@
-.ui.middle.container {
+.ui.middle.container h1, h2, h3{
   margin-top: 20px;
-  font-size: 50px;
   font-family: 'Yellowtail', cursive;
   text-align: center;
 }

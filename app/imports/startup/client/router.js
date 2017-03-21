@@ -22,10 +22,10 @@ FlowRouter.route('/login', {
   },
 });
 
-FlowRouter.route('/new-user', {
-  name: 'New_Profile_Page',
+FlowRouter.route('/my-profile', {
+  name: 'My_Profile_Page',
   action() {
-    BlazeLayout.render('App_Body', { main: 'New_Profile_Page' });
+    BlazeLayout.render('App_Body', { main: 'My_Profile_Page' });
   },
 });
 

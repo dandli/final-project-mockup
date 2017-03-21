@@ -12,4 +12,4 @@ import './list-stuff-page.js';
 import './login-page.html';
 
 
-import './new-profile-page.html';
+import './my-profile-page.html';
