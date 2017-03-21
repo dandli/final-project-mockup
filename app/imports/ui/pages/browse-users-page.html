@@ -1,0 +1,63 @@
+<template name="Browse_Users_Page">
+  <div class="ui container">
+
+    {{#if Template.subscriptionsReady}}
+      <h1 class="ui dividing header">Browse Fellow Users</h1>
+      <table style="margin-top: 20px" class="ui celled table">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Contact Info</th>
+          <th>Musical Tastes</th>
+          <th>Musical Capabilities</th>
+          <th>Musical Goals</th>
+          <th>YouTube</th>
+          <th>SoundCloud</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+          <td>John</td>
+          <td>john@hawaii.edu</td>
+          <td>Classical Music</td>
+          <td>Piano</td>
+          <td>Casual playing</td>
+          <td>www.youtube.com/johnsmusic</td>
+          <td>www.soundcloud.com/johnsmusic</td>
+        </tr>
+        <tr>
+          <td>Jack</td>
+          <td>808-956-8111</td>
+          <td>Jazz Music</td>
+          <td>Saxophone</td>
+          <td>Be in a band</td>
+          <td>www.youtube.com/jacksjazz</td>
+          <td>N/A</td>
+        </tr>
+        <tr>
+          <td>Jeffrey</td>
+          <td>808-956-9376</td>
+          <td>Rock</td>
+          <td>Drums</td>
+          <td>Start a small band</td>
+          <td>www.youtube.com/rockinjeff</td>
+          <td>www.soundcloud.com/rockinjeff</td>
+        </tr>
+        <tr>
+          <td>Ashley</td>
+          <td>ashley@hawaii.edu</td>
+          <td>Classical Music</td>
+          <td>Trumpet</td>
+          <td>Casual playing</td>
+          <td>N/A</td>
+          <td>www.soundcloud.com/ashleystrumpet</td>
+        </tr>
+
+        </tbody>
+      </table>
+    {{else}}
+      {{> Loading}}
+    {{/if}}
+  </div>
+</template>

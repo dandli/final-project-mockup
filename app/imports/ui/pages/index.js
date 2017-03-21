@@ -13,3 +13,6 @@ import './login-page.html';
 
 
 import './my-profile-page.html';
+
+
+import './browse-users-page.html';
