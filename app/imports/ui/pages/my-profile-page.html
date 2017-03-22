@@ -10,31 +10,67 @@
         <label>Contact Info</label>
         <input type="text" placeholder="Phone number / Email">
       </div>
-      <div class="field">
-        <label>Musical Tastes</label>
-        <input type="text" placeholder="Type of music">
-      </div>
-      <div class="field">
-        <label>Musical Capabilities</label>
-        <input type="text" placeholder="Instruments you play">
-      </div>
-      <div class="field">
-        <label>Musical Goals</label>
-        <input type="text" placeholder="Be in a band, casual playing, etc.">
-      </div>
-      <div class="two fields">
+
+      <div class="ui sub header">Musical Tastes</div>
+      <select multiple="" name="music" class="ui fluid normal dropdown">
+        <option value="">Tastes</option>
+        <option value="jazz">Jazz</option>
+        <option value="classical">Classical</option>
+        <option value="randb">R&B</option>
+        <option value="rock">Rock</option>
+        <option value="other">Other</option>
+      </select>
+
+      <div class="ui sub header">Musical Capabilities</div>
+      <select multiple="" name="capabilities" class="ui fluid normal dropdown">
+        <option value="">Capabilities</option>
+        <option value="piano">Piano</option>
+        <option value="trumpet">Trumpet</option>
+        <option value="drums">Drums</option>
+        <option value="guitar">Guitar</option>
+        <option value="other">Other</option>
+      </select>
+
+      <div class="ui sub header">Musical Goals</div>
+      <select multiple="" name="goals" class="ui fluid normal dropdown">
+        <option value="">Goals</option>
+        <option value="band">Play in a band</option>
+        <option value="casual">Casual playing</option>
+        <option value="learn">Learn to play an instrument</option>
+        <option value="band">Play in a band</option>
+        <option value="other">Other</option>
+      </select>
+
+      <div class="two fields" style="padding-top: 20px">
         <div class="field">
           <label>YouTube</label>
-          <input type="text" placeholder="YouTube URL or N/A if none">
+          <div class="ui left icon input">
+            <input type="text" placeholder="YouTube URL or N/A if none">
+            <i class="youtube icon"></i>
+          </div>
         </div>
+
         <div class="field">
           <label>SoundCloud</label>
-          <input type="text" placeholder="SoundCloud URL or N/A if none">
+          <div class="ui left icon input">
+            <input type="text" placeholder="SoundCloud URL or N/A if none">
+            <i class="soundcloud icon"></i>
+          </div>
         </div>
       </div>
+
+      <button class="ui button" style="margin-top: 20px" type="submit">Update</button>
+
     </div>
-
-    <button class="ui button" style="margin-top: 20px" type="submit">Update</button>
-
   </div>
+
+  <script>
+    $('.ui.normal.dropdown')
+        .dropdown({
+          maxSelections: 3
+        })
+    ;
+  </script>
 </template>
+
+
