@@ -9,29 +9,22 @@
 }
 
 .landing-section-1 {
-  padding: 10px 10px 30px 10px;
-  background-color: #00B5AD;
-  color: #E5F9E7;
+  padding: 0 10px 30px 10px;
+  background-color: #bc8928;
+  color: #bef9e9;
 }
 
 .landing-section-2 {
   padding: 20px 10px 20px 10px;
-  background-color: #E5F9E7;
-  color:  #00B5AD;
+  background-color: #BC6E1D;
+  color: #1a4cb5;
 }
 
 .landing-section-3 {
-  padding: 20px 10px 30px 30px;
-  background-color: #00B5AD;
-  color: #E5F9E7;
+  padding: 20px 10px 30px 200px;
+  background-color: #bc8928;
+  color: #bef9e9;
 }
-
-.landing-section-5 {
-  padding: 20px 10px 20px 10px;
-  background-color: #00B5AD;
-  color: #E5F9E7;
-}
-
 
 .landing-section-1-welcome {
   font-family: 'Roboto', sans-serif;

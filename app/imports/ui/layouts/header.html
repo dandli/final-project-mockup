@@ -1,16 +1,15 @@
 <template name="Header">
-  {{#if currentUser}}
-    <img class="ui fluid image" style="max-height: 500px" src="/images/music-instruments.jpg">
+    <img class="ui fluid image" style="max-height: 300px" src="/images/music-instruments.jpg">
     <div class="ui borderless inverted menu" style="border-radius: 0px; margin-top: 0px">
       <div class="ui container">
+        <a href="{{pathFor 'Landing_Page'}}"></a>
         <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Campus Jam</h1></a>
         <a class="{{ isActiveRoute 'My_Profile_Page'}} item" href="{{ pathFor 'My_Profile_Page' }}">My Profile</a>
         <a class="{{ isActiveRoute 'Browse_Users_Page'}} item" href="{{ pathFor 'Browse_Users_Page' }}">Browse Users</a>
         <a class="{{ isActiveRoute 'Login_Page'}} right item" href="{{ pathFor 'Login_Page' }}">Login</a>
       </div>
     </div>
-  {{else}}
-    <a href="{{pathFor 'Landing_Page'}}"></a>
-  {{/if}}
+
+
 
 </template>
