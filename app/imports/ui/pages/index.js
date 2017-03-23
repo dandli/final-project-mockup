@@ -10,9 +10,10 @@ import './list-stuff-page.html';
 import './list-stuff-page.js';
 
 import './login-page.html';
+import './login-page.js';
 
+import './landing-page.html';
 
 import './my-profile-page.html';
-
 
 import './browse-users-page.html';
