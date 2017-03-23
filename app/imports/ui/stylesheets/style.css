@@ -7,3 +7,33 @@
 .ui.borderless.inverted.menu {
   background-color: #BC6E1D;
 }
+
+.landing-section-1 {
+  padding: 0 10px 30px 10px;
+  background-color: #bc8928;
+  color: #bef9e9;
+}
+
+.landing-section-2 {
+  padding: 20px 10px 20px 10px;
+  background-color: #BC6E1D;
+  color: #1a4cb5;
+}
+
+.landing-section-3 {
+  padding: 20px 10px 30px 200px;
+  background-color: #bc8928;
+  color: #bef9e9;
+}
+
+.landing-section-1-welcome {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.landing-section-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+}
