@@ -1,6 +1,10 @@
 # final-project-mockup
 
-## Home Page 
+## Landing Page
+<hr>
+<img class="ui image" src="app\public\images\landing-page.PNG">
+
+## Home Page
 <hr>
 <img class="ui image" src="app\public\images\home-page.PNG">
 
